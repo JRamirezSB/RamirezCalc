@@ -16,6 +16,16 @@
         android:text="@string/zero"/>
 
     <Button
+        android:id="@+id/buttonDec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_toLeftOf="@id/buttonClear"
+        android:layout_toStartOf="@id/buttonClear"
+        android:text="."/>
+
+
+    <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -106,5 +116,58 @@
         android:layout_toRightOf="@id/button8"
         android:layout_toEndOf="@id/button8"
         />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/button3"
+        android:layout_toRightOf="@id/button3"
+        android:text="+"
+        />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonAdd"
+        android:layout_alignLeft="@id/buttonAdd"
+        android:layout_alignStart="@id/buttonAdd"
+        android:text="-"
+        />
+
+    <Button
+        android:id="@+id/buttonMulti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonSub"
+        android:layout_alignLeft="@id/buttonSub"
+        android:layout_alignStart="@id/buttonSub"
+        android:text="*"
+        />
+
+    <Button
+        android:id="@+id/buttonDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonMulti"
+        android:layout_alignLeft="@id/buttonMulti"
+        android:layout_alignStart="@id/buttonMulti"
+        android:text="/"
+        />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_toLeftOf="@id/buttonAdd"
+        android:layout_toStartOf="@id/buttonAdd"
+        android:text="Clear"
+
+        />
+
 
 </RelativeLayout>
